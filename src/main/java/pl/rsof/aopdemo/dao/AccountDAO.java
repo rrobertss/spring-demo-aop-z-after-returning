@@ -27,6 +27,8 @@ public class AccountDAO {
 	
 	public List<Account>findAccounts(){
 		
+		System.out.println("executing findAccounts");
+		
 		List<Account>accounts = new ArrayList<>();
 		
 		Account a1 = new Account("Tom", "Silver");

@@ -29,9 +29,8 @@ public class AfterReturningDemoApp {
 		
 		List<Account>accounts = accountDAO.findAccounts();
 		
-		System.out.println("Start AfterReturning");
+		System.out.println("Start after findAccounts");
 		System.out.println(accounts);
-		
 		
 		
 		context.close();
